@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable maximize-panes': 'maximize-panes:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'maximize-panes'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'maximize-panes:toggle' }
+      ]
+    ]
+  }
+]
