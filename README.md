@@ -16,7 +16,7 @@ visible and the previous one hidden.
 
 | Command name        | Default key binding           |
 | ------------- |:-------------:|
-| `layout-manager:maximize`      | `cmd-shift-enter` |
+| `maximize-panes:maximize`      | `cmd-shift-enter` |
 
 ## Related packages
 

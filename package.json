@@ -3,7 +3,9 @@
   "main": "./lib/maximize-panes",
   "version": "0.0.0",
   "description": "Maximize panes to occupy the entire window without closing other panes",
-  "activationEvents": ["maximize-panes:maximize"],
+  "activationEvents": [
+    "maximize-panes:maximize"
+  ],
   "repository": "https://github.com/santip/maximize-panes",
   "license": "MIT",
   "engines": {
