@@ -1,7 +1,7 @@
 {
   "name": "maximize-panes",
   "main": "./lib/maximize-panes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Maximize panes to occupy the entire window without closing other panes",
   "activationEvents": [
     "maximize-panes:maximize"
