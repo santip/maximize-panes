@@ -3,18 +3,18 @@
 # execute.
 #
 # Below is a basic keybinding which registers on all platforms by applying to
-# the root workspace element.
+# the root atom-workspace element.
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
 
 # keymaps for OSX
-'.platform-darwin .workspace .editor:not(.mini)':
+'.platform-darwin atom-workspace atom-text-editor:not([mini])':
  'cmd-shift-enter': 'maximize-panes:maximize'
 
 # commands for windows and Linux due to their lack of an cmd key
-'.platform-win32 .workspace .editor:not(.mini)':
+'.platform-win32 atom-workspace atom-text-editor:not([mini])':
  'ctrl-shift-enter': 'maximize-panes:maximize'
 
-'.platform-linux .workspace .editor:not(.mini)':
+'.platform-linux atom-workspace atom-text-editor:not([mini])':
  'ctrl-shift-enter': 'maximize-panes:maximize'
