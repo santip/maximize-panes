@@ -1,10 +1,12 @@
 {
   "name": "maximize-panes",
   "main": "./lib/maximize-panes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Maximize panes to occupy the entire window without closing other panes",
   "activationCommands": {
-    "atom-workspace": ["maximize-panes:maximize"]
+    "atom-workspace": [
+      "maximize-panes:maximize"
+    ]
   },
   "repository": "https://github.com/santip/maximize-panes",
   "license": "MIT",
